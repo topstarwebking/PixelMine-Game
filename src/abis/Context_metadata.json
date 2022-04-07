@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PIMIToken.sol": "Context"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PIMIToken.sol": {
+			"keccak256": "0x574c1af02617990509f0e3b619513ceee91f36b29523b45c1cca3287dd4cf875",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b72fade7ec935f74c47a46b0f92e751da99fec7fd6e38574e27d1e379258cc81",
+				"dweb:/ipfs/QmYy11NM1tqSKTZQzvutus7n3vNqhSeZE4sJfeFK1j4ftj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "String operations.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Helmet.sol": "Strings"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Helmet.sol": {
+			"keccak256": "0xe7354fcbcacd7fb916ffb0cc6b9ad0cf6f65b1cb80654a5f7d92339ae17edc91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea8d4915a898c7fb89f6cf5050c54124a4108a445f7defac18bcb7bb7f79d17e",
+				"dweb:/ipfs/QmYcSDsxWh4S59AMKpPpBUW3xxdYv1R87pW4zXxW25hXrP"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PixelMine.sol": "SafeMath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PixelMine.sol": {
+			"keccak256": "0xf0a91912d13b12a1dbd4c33867e5812ba8b9dcbbf19426c81af3695c98bcae89",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a9ffb7f38eb8821902af61970108792d606a608c8ff9fa0c361b339f9657286",
+				"dweb:/ipfs/QmZBCy9YqfYoe9phTJ9FUtTep9cJmi5bNV6QsNgbk3C8At"
+			]
+		}
+	},
+	"version": 1
+}

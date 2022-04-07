@@ -1,0 +1,21 @@
+.welcome-play {
+  background: url(../../images/ui/buttons/play.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.welcome-about {
+  background: url(../../images/ui/buttons/about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.welcome-swap {
+  background: url(../../images/ui/buttons/swap.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}

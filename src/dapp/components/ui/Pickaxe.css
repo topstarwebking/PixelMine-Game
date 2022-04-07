@@ -1,0 +1,147 @@
+.dig {
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  height: 42px;
+  width: 180px;
+  background: url("../../images/buttons/upgrade-area.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; */
+  /* margin-top: 5px; */
+}
+
+.dig:hover {
+  transform: scale(0.95);
+}
+
+.loop {
+  animation-direction: alternate;
+}
+
+.mint {
+  position: absolute;
+  color: #38242d;
+  font-size: 10px;
+  z-index: 2;
+  top: 22px;
+  cursor: pointer;
+  left: 79%;
+  top: 200%;
+  z-index: 9;
+}
+
+#minter {
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  background: url("../../images/buttons/Shop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  /* animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate; */
+}
+
+#minter:hover {
+  transform: scale(0.95);
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.596));
+}
+
+#mainlogo {
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  height: 100px;
+  width: 400px;
+  background: url("../../images/ui/logo1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  /* animation-name: scaling;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate; */
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+@keyframes scaling {
+  50% {
+    transform: scale(0.95);
+  }
+}
+
+@keyframes rotating {
+  50% {
+    transform: rotateY(360deg);
+  }
+}
+
+.disc {
+  position: absolute;
+  left: -12px;
+  top: 0;
+  z-index: 1;
+}
+
+.dig .inner-pixel-panel {
+  padding-left: 5px;
+}
+
+.upgrade {
+  background: url("../../images/buttons/upgrade-area.png");
+}
+
+.discBackground {
+  position: absolute;
+  width: 34px;
+  left: -18px;
+  top: -9px;
+
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  z-index: 2;
+}
+
+.pickaxe {
+  position: absolute;
+  width: 27px;
+  left: -17px;
+  top: -5px;
+
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  z-index: 2;
+}
+
+#upgrade {
+  color: white;
+  padding: 0 13px;
+  text-shadow: 1px 1px black;
+  position: relative;
+  white-space: nowrap;
+}

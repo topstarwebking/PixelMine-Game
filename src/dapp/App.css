@@ -1,0 +1,323 @@
+@font-face {
+  font-family: "Press Start 2p";
+}
+
+body {
+  overflow: hidden;
+  font-family: "Press Start 2p";
+}
+
+.area {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(24, 1fr);
+  grid-auto-rows: 1fr;
+  width: 1200px;
+  margin: auto;
+  overflow-y: clip;
+  position: relative;
+}
+
+/* .area > div {
+  height: calc(1000px / 20);
+  background-size: contain;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+
+  position: relative;
+} */
+
+#inner {
+  font-size: 25px;
+  color: #aa3f11;
+  font-weight: bold;
+  text-shadow: 0px 2.5px #80201a;
+  border-radius: 4px 0 0 4px;
+  padding: 5px;
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 20px;
+  top: 100px;
+}
+
+#inner > img {
+  width: 20px;
+  margin-right: 10px;
+  image-rendering: pixelated;
+  filter: drop-shadow(1px 1px 0px white) drop-shadow(-1px 0px 0px white)
+    drop-shadow(0px -1px 0px white);
+}
+
+#edge {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  position: absolute;
+  height: calc(100% + 8px);
+  top: -4px;
+  left: -15px;
+}
+
+#panel-bg {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  position: absolute;
+  height: calc(100% + 8px);
+  top: -4px;
+  left: 0px;
+  right: 14px;
+  z-index: -1;
+  width: 100%;
+}
+
+.message {
+  background-color: #d79a16;
+  position: relative;
+  padding: 2px 4px;
+  color: white;
+  font-size: 10px;
+  text-shadow: 1px 1px black;
+  margin: 5px 10px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px black;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+.disabled {
+  opacity: 0.2;
+}
+
+.button > img {
+  margin-left: 3px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+#exclamation {
+  width: 10px;
+}
+
+#question {
+  width: 14px;
+  height: 20px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.header {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 27px !important;
+  padding: 14px;
+}
+
+#welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px 28px;
+  text-align: center;
+
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+#welcome .buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+#welcome .button {
+  margin-bottom: 10px;
+}
+
+.farm-tour {
+  color: white !important;
+  text-shadow: 1px 1px black !important;
+  background-color: #b86f50 !important;
+}
+
+.reactour__close {
+  color: white !important;
+}
+
+#tour-button {
+  text-align: center;
+  margin-top: 22px;
+  width: 98px;
+}
+
+#logo {
+  max-width: 400px;
+  margin-top: -93px;
+  margin-bottom: -57px;
+  margin-left: 10px;
+}
+
+* {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+      Introduced in Internet Explorer 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#gaming-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 100px;
+}
+
+#game-left-side {
+  width: 1000px;
+}
+
+#game-right-side {
+  width: 200px;
+  /* left: 1110px; */
+  /* position: fixed; */
+}
+
+#balance {
+  position: absolute;
+  top: 293px;
+  right: 30px;
+  z-index: 999;
+  background: url(./images/ui/pimi.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 170px;
+
+  padding: 10px;
+
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+}
+
+#advertisement {
+  position: absolute;
+  top: 460px;
+  right: 30px;
+  z-index: 999;
+  background: #be5121;
+  width: 180px;
+  height: 210px;
+
+  padding: 10px;
+
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+}
+
+#advertisementUnder {
+  position: absolute;
+  top: 690px;
+  right: 240px;
+  z-index: 999;
+  background: #be5121;
+  width: 920px;
+  height: 70px;
+
+  padding: 10px;
+
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+}
+
+#audio-player {
+  position: absolute;
+  top: 615px;
+  right: 214px;
+}
+
+#buy-now {
+  position: absolute;
+  top: 259px;
+  right: 30px;
+  z-index: 999;
+  cursor: pointer;
+  background: url(./images/ui/swap-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 39px;
+
+  padding: 10px;
+
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+}
+
+#save-button {
+  position: absolute;
+  top: 205px;
+  right: 30px;
+  z-index: 999;
+  cursor: pointer;
+  background: url(./images/ui/save-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 39px;
+
+  padding: 10px;
+
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+}
+
+#count-down {
+  position: absolute;
+  top: 34px;
+  right: 30px;
+  z-index: 999;
+  background: url(./images/ui/count-down.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 170px;
+
+  padding: 10px;
+
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.596));
+}
+
+#buy-now:hover {
+  opacity: 0.9;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.596));
+}
+
+#save-button:hover {
+  opacity: 0.9;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.596));
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.596));
+}
