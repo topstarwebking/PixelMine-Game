@@ -12,7 +12,7 @@ Controlled all gaming functions in one xState state variable. All gaming functio
 ## Available Scripts
 
 In the project directory, you can run:
-### `yarn`
+### `yarn install`
 Runs this command in project dictionory to install npm modules.
 
 ### `yarn start`
